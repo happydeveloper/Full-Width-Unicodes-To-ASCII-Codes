@@ -39,6 +39,13 @@ namespace Converter.Tests
             Assert.AreEqual(expected, result);
         }
 
+        [Test]
+        [TestCase("（ＤＵＲＵ）　", "(DURU) ")]
+        public void ConvertFullWidthToAscii_SendFullWidth_ReturnAsciiConverted1(string original, string expected)
+        {
+            var result = this._service.Convert(original).First();
+            Assert.AreEqual(expected, result);
+        }
         #endregion Tests
     }
 }

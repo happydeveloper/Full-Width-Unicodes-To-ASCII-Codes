@@ -67,7 +67,7 @@ namespace Converter.Services
         }
 
         /// <summary>
-        /// Parses the HEX code string ranges to the list of integer ranges.
+        /// Parses the HEX code string ranges to the list of integer ranges. //코드 리뷰 - HEX코드  => 정수 변환
         /// </summary>
         /// <param name="ranges">List of the HEX code string ranges.</param>
         /// <returns>Returns the list of integer ranges.</returns>
@@ -107,7 +107,7 @@ namespace Converter.Services
         }
 
         /// <summary>
-        /// Splits the given string into segments by delimiters provided.
+        /// Splits the given string into segments by delimiters provided.  //코드 리뷰 중
         /// </summary>
         /// <param name="value">String value to be split.</param>
         /// <param name="delimiters">List of delimiters.</param>
